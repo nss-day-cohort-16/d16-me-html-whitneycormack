@@ -1,30 +1,29 @@
 
-header { 
+header {
   background-color: #224072;
   color: white;
   font-family: 'Bombshell Pro', sans-serif;
   text-shadow: 3px 3px #181818;
   text-align: center;
   padding: 20px 20px;
-  font-size: 20px;
-  /*margin: 10px 10px;*/
+  font-size: 25px;
  }
 
- body {
+body {
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
- }
+}
 
 a {
   font-weight: bold;
   text-decoration: none;
 }
 
-a:link { 
+a:link {
   color: #f66979;
  }
 
-a:visited { 
+a:visited {
   color: #FF944C;
 }
 
@@ -33,126 +32,131 @@ a:hover, a:active, a:focus {
   text-decoration: underline;
 }
 
-nav { 
+nav {
   background-color: lightblue;
- }
+}
 
-nav ul { 
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   width: 100%;
- }
+}
 
 nav li {
   float: left;
   width: 20%;
 }
 
-nav li a { 
+nav li a {
   display: block;
   color: #1E1E1E;
   padding: 20px 20px;
   text-transform: uppercase;
- }
+  margin-left: 10px;
+  text-align: center;
+}
 
 
 /*bio section*/
 
 .bio {
-  height: 300px;
+  height: 340px;
   column-count: 2;
   margin-left: 200px;
   margin-right: 200px;
 }
 
-.bio img { 
+.bio img {
   border-radius: 50%;
   height: 250px;
-  margin: 30px 30px;
+  margin: 30px;
+  margin-left: 60px;
   padding: 10px;
   float: left;
+}
 
- }
-
-.bio p { 
+.bio p {
   float: right;
-  margin-top: 10px;
+  margin-top: 50px;
   padding: 10px;
-
- }
-
+  text-align: center;
+}
 
 /*projects section*/
 
-
- .projects { 
+.projects {
   background-color: #f66979;
   opacity: 0.8;
   height: 400px;
-  }
+}
 
-.projects h2 { 
+.projects h2 {
   font-family: 'Bombshell Pro', sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   text-shadow: 0.5px 0.5px #181818;
   text-align: center;
-  padding: 30px;
- }
+  padding-top: 25px;
+}
 
-.projects img { 
+.projects img {
   border-radius: 50%;
-  height: 200px;
-  margin-right: 50px;
-  margin-left: 100px;
- }
+  height: 150px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+figure  {
+  display: inline-block;
+}
+
+figcaption {
+  margin-top: 10px;
+  text-align: center;
+}
 
 /*resources*/
 
-.links { 
+.links {
   height: 400px;
  }
 
 .links h2 {
   font-family: 'Bombshell Pro', sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   text-shadow: 0.5px 0.5px #181818;
   text-align: center;
   padding: 10px;
 }
 
-.links img { 
+.links img {
   border-radius: 50%;
-  height: 200px;
-  margin-right: 50px;
-  margin-left: 100px;
-
+  height: 170px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
  }
 
-
-
-
-
+#images-container {
+  margin-left: 250px;
+}
 
 /*footer*/
 
-footer { 
+footer {
   background-color: lightblue;
   padding: 20px 10px;
   color: #000;
   font-size: 0.8em;
   text-align: center;
   clear: left;
- }
+}
 
-footer img { 
+footer img {
   display: inline;
   height: 60px;
   text-align: center;
   border-radius: 50%;
   padding: 10px;
- }
+}
 
 
 
